@@ -1,0 +1,91 @@
+.dashboard-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1506354666786-959d6d497f1a")
+    no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  padding: 40px 60px;
+  border-radius: 15px;
+  width: 900px;
+  text-align: center;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-card h1 {
+  color: #2575fc;
+  font-size: 2.2rem;
+}
+
+.food-form {
+  margin: 20px 0;
+}
+
+.food-form input {
+  margin: 10px;
+  padding: 10px 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.food-form button {
+  background-color: #2575fc;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.food-form button:hover {
+  background-color: #6a11cb;
+}
+
+.food-list {
+  margin-top: 25px;
+  background: #f3f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.nutrient-summary {
+  margin-top: 20px;
+  background: #eef3ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.nutrient-summary h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.nutrient-summary .bars p {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+.deficiency-alerts {
+  background: #fff3cd;
+  color: #856404;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.healthy {
+  color: #28a745;
+  margin-top: 20px;
+  font-weight: bold;
+}
